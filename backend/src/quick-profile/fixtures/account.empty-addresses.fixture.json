@@ -1,0 +1,108 @@
+{
+  "UID": "_gid_30A3XVJciH95WE*******7ee3MY+lUAtpVxvUWNseU=",
+  "UIDSignature": "HHPLo/TC7KobjnGB7JflcWvAXfg=",
+  "signatureTimestamp": "1412516469",
+  "loginProvider": "facebook",
+  "isRegistered": true,
+  "isActive": true,
+  "isVerified": true,
+  "iRank": 57.3400,
+  "loginIDs": {
+    "emails": [],
+    "unverifiedEmails": []
+  },
+  "emails": {
+    "verified": [
+      "*******@gmail.com"
+    ],
+    "unverified": []
+  },
+  "socialProviders": "facebook,site",
+  "profile": {
+    "firstName": "Pinky",
+    "lastName": "Ray",
+    "photoURL": "https://graph.facebook.com/v2.0/1020445*******25770/picture?type=large",
+    "thumbnailURL": "https://graph.facebook.com/v2.0/102*******0325770/picture?type=square",
+    "birthYear": 1980,
+    "birthMonth": 4,
+    "birthDay": 22,
+    "profileURL": "https://www.facebook.com/app_scoped_user_id/1020*******25770/",
+    "city": "Athens, Greece",
+    "gender": "m",
+    "age": 34,
+    "email": "*******@gmail.com",
+    "samlData": {}
+  },
+  "identities": [
+    {
+      "provider": "facebook",
+      "providerUID": "10204456750325770",
+      "isLoginIdentity": true,
+      "photoURL": "https://graph.facebook.com/v2.0/1020*******5770/picture?type=large",
+      "thumbnailURL": "https://graph.facebook.com/v2.0/102*******5770/picture?type=square",
+      "firstName": "Pinky",
+      "lastName": "Ray",
+      "gender": "m",
+      "age": "34",
+      "birthDay": "22",
+      "birthMonth": "4",
+      "birthYear": "1980",
+      "email": "*******@gmail.com",
+      "city": "Athens, Greece",
+      "profileURL": "https://www.facebook.com/app_scoped_user_id/1020*******770/",
+      "proxiedEmail": "",
+      "allowsLogin": true,
+      "isExpiredSession": false,
+      "lastUpdated": "2014-10-05T13:35:14.039Z",
+      "lastUpdatedTimestamp": 1412516114039,
+      "oldestDataUpdated": "2014-10-05T13:35:13.421Z",
+      "oldestDataUpdatedTimestamp": 1412516113421
+    },
+    {
+      "provider": "site",
+      "providerUID": "_gid_30A3XVJciH*******+lUAtpVxvUWNseU=",
+      "isLoginIdentity": false,
+      "allowsLogin": false,
+      "isExpiredSession": false,
+      "lastUpdated": "2014-10-05T13:39:53.455Z",
+      "lastUpdatedTimestamp": 1412516393455,
+      "oldestDataUpdated": "2014-10-05T13:39:53.455Z",
+      "oldestDataUpdatedTimestamp": 1412516393455
+    }
+  ],
+  "data": {
+    "hair": "blonde",
+    "phone": "(514) 123-5555",
+    "addresses": []
+  },
+  "password": {},
+  "created": "2014-09-27T23:47:41.527Z",
+  "createdTimestamp": 1411861661527,
+  "lastLogin": "2014-10-05T13:35:13.437Z",
+  "lastLoginTimestamp": 1412516113437,
+  "lastUpdated": "2014-10-05T13:39:53.455Z",
+  "lastUpdatedTimestamp": 1412516393455,
+  "oldestDataUpdated": "2014-10-05T13:35:13.421Z",
+  "oldestDataUpdatedTimestamp": 1412516113421,
+  "registered": "2014-09-27T23:47:41.59Z",
+  "registeredTimestamp": 1411861661590,
+  "verified": "2014-09-27T23:47:41.543Z",
+  "verifiedTimestamp": 1411861661543,
+  "regSource": "",
+  "lastLoginLocation": {
+    "country": "IL",
+    "coordinates": {
+      "lat": 31.5,
+      "lon": 34.75
+    }
+  },
+  "rbaPolicy": {
+    "riskPolicy": "low",
+    "riskPolicyLocked": false
+  },
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "e6f891ac17f24810bee6eb533524a152",
+  "time": "2015-03-22T11:42:25.943Z"
+}

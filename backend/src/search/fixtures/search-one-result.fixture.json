@@ -1,0 +1,397 @@
+{
+  "Item": {
+    "xmlns": "http://endeca.com/schema/xavia/2010",
+    "type": "TypeAheadService",
+    "Property": [
+      {
+        "name": "productSearchResults",
+        "Item": {
+          "type": "ProductAutoSuggestResultsList",
+          "Property": [
+            {
+              "name": "pagingActionTemplate",
+              "Item": {
+                "class": "class com.endeca.infront.cartridge.model.NavigationAction",
+                "Property": [
+                  {
+                    "name": "navigationState",
+                    "String": "?No=%7Boffset%7D&Nrpp=%7BrecordsPerPage%7D&Ntt=cara&format=xml"
+                  },
+                  {
+                    "name": "siteRootPath",
+                    "String": "/services"
+                  },
+                  {
+                    "name": "siteState",
+                    "Item": {
+                      "class": "com.endeca.infront.site.model.SiteState",
+                      "$t": "",
+                      "Property": [
+                        {
+                          "name": "contentPath",
+                          "String": "/search/type-ahead/type-ahead.jsp"
+                        },
+                        {
+                          "name": "siteDisplayName",
+                          "String": "Dynamite"
+                        },
+                        {
+                          "name": "siteId",
+                          "String": "/Dynamite"
+                        },
+                        {
+                          "name": "properties",
+                          "Item": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "contentPath",
+                    "String": "/guidedsearch"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "lastRecNum",
+              "Long": "1"
+            },
+            {
+              "name": "records",
+              "List": {
+                "Item": {
+                  "class": "class com.endeca.infront.cartridge.model.Record",
+                  "Property": [
+                    {
+                      "name": "numRecords",
+                      "Long": "0"
+                    },
+                    {
+                      "name": "detailsAction",
+                      "Item": {
+                        "class": "class com.endeca.infront.cartridge.model.RecordAction",
+                        "Property": [
+                          {
+                            "name": "siteRootPath",
+                            "String": "/services"
+                          },
+                          {
+                            "name": "siteState",
+                            "Item": {
+                              "class": "com.endeca.infront.site.model.SiteState",
+                              "$t": "",
+                              "Property": [
+                                {
+                                  "name": "contentPath",
+                                  "String": "/search/type-ahead/type-ahead.jsp"
+                                },
+                                {
+                                  "name": "siteDisplayName",
+                                  "String": "Dynamite"
+                                },
+                                {
+                                  "name": "siteId",
+                                  "String": "/Dynamite"
+                                },
+                                {
+                                  "name": "properties",
+                                  "Item": {}
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "name": "contentPath",
+                            "String": "/recorddetails"
+                          },
+                          {
+                            "name": "recordState",
+                            "String": "?R=product-100020253..dynamiteCatalogCA.en__US.salePricesCA__listPricesCA.dynamiteSiteCA&format=xml"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "name": "attributes",
+                      "Item": {
+                        "Property": [
+                          {
+                            "name": "product.finalUrl",
+                            "List": {
+                              "String": "cara-high-rise-light-wash-distressed-jeans/p/100020253"
+                            }
+                          },
+                          {
+                            "name": "product.repositoryId",
+                            "List": {
+                              "String": "100020253"
+                            }
+                          },
+                          {
+                            "name": "product.displayName",
+                            "List": {
+                              "String": "Cara High Rise Distressed Jeans"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "name": "totalNumRecs",
+              "Long": "1"
+            },
+            {
+              "name": "sortOptions",
+              "List": {
+                "Item": [
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.SortOptionLabel",
+                    "Property": [
+                      {
+                        "name": "navigationState",
+                        "String": "?Ns=sku.activePrice%7C1&Ntt=cara&format=xml"
+                      },
+                      {
+                        "name": "siteRootPath",
+                        "String": "/services"
+                      },
+                      {
+                        "name": "siteState",
+                        "Item": {
+                          "class": "com.endeca.infront.site.model.SiteState",
+                          "$t": "",
+                          "Property": [
+                            {
+                              "name": "contentPath",
+                              "String": "/search/type-ahead/type-ahead.jsp"
+                            },
+                            {
+                              "name": "siteDisplayName",
+                              "String": "Dynamite"
+                            },
+                            {
+                              "name": "siteId",
+                              "String": "/Dynamite"
+                            },
+                            {
+                              "name": "properties",
+                              "Item": {}
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "label",
+                        "String": "searchresults.sort.priceDesc"
+                      },
+                      {
+                        "name": "contentPath",
+                        "String": "/guidedsearch"
+                      },
+                      {
+                        "name": "selected",
+                        "Boolean": "false"
+                      }
+                    ]
+                  },
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.SortOptionLabel",
+                    "Property": [
+                      {
+                        "name": "navigationState",
+                        "String": "?Ns=sku.activePrice%7C0&Ntt=cara&format=xml"
+                      },
+                      {
+                        "name": "siteRootPath",
+                        "String": "/services"
+                      },
+                      {
+                        "name": "siteState",
+                        "Item": {
+                          "class": "com.endeca.infront.site.model.SiteState",
+                          "$t": "",
+                          "Property": [
+                            {
+                              "name": "contentPath",
+                              "String": "/search/type-ahead/type-ahead.jsp"
+                            },
+                            {
+                              "name": "siteDisplayName",
+                              "String": "Dynamite"
+                            },
+                            {
+                              "name": "siteId",
+                              "String": "/Dynamite"
+                            },
+                            {
+                              "name": "properties",
+                              "Item": {}
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "label",
+                        "String": "searchresults.sort.priceAsc"
+                      },
+                      {
+                        "name": "contentPath",
+                        "String": "/guidedsearch"
+                      },
+                      {
+                        "name": "selected",
+                        "Boolean": "false"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "name": "endeca:auditInfo",
+              "Item": {
+                "Property": [
+                  {
+                    "name": "ecr:resourcePath",
+                    "String": "/services/Dynamite/typeahead"
+                  },
+                  {
+                    "name": "ecr:innerPath",
+                    "String": "productSearchResults"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "firstRecNum",
+              "Long": "1"
+            },
+            {
+              "name": "precomputedSorts",
+              "List": {}
+            },
+            {
+              "name": "recsPerPage",
+              "Long": "3"
+            }
+          ]
+        }
+      },
+      {
+        "name": "endeca:contentPath",
+        "String": "/typeahead"
+      },
+      {
+        "name": "endeca:assemblerRequestInformation",
+        "Item": {
+          "type": "AssemblerRequestEvent",
+          "Property": [
+            {
+              "name": "endeca:contentPath",
+              "String": "/typeahead"
+            },
+            {
+              "name": "endeca:numRecords",
+              "Long": "1"
+            },
+            {
+              "name": "endeca:searchKey",
+              "String": "All"
+            },
+            {
+              "name": "endeca:siteRootPath",
+              "String": "/services"
+            },
+            {
+              "name": "endeca:searchMode",
+              "String": "ALLPARTIAL"
+            },
+            {
+              "name": "endeca:assemblyStartTimestamp",
+              "Long": "1522676567275"
+            },
+            {
+              "name": "endeca:assemblyFinishTimestamp",
+              "Long": "1522676567280"
+            },
+            {
+              "name": "endeca:eneTime",
+              "Long": "1"
+            },
+            {
+              "name": "endeca:searchTerms",
+              "String": "cara"
+            },
+            {
+              "name": "endeca:requestType",
+              "String": "S"
+            },
+            {
+              "name": "endeca:requestId",
+              "String": "488679"
+            },
+            {
+              "name": "endeca:sessionId",
+              "String": "giJbBxmjqMQyFwmQM4CECNAk.com5"
+            }
+          ]
+        }
+      },
+      {
+        "name": "endeca:auditInfo",
+        "Item": {
+          "Property": {
+            "name": "ecr:resourcePath",
+            "String": "/services/Dynamite/typeahead"
+          }
+        }
+      },
+      {
+        "name": "name",
+        "String": "Type Ahead Service"
+      },
+      {
+        "name": "endeca:siteRootPath",
+        "String": "/services"
+      },
+      {
+        "name": "endeca:siteState",
+        "Item": {
+          "class": "com.endeca.infront.site.model.SiteState",
+          "$t": "",
+          "Property": [
+            {
+              "name": "contentPath",
+              "String": "/search/type-ahead/type-ahead.jsp"
+            },
+            {
+              "name": "siteDisplayName",
+              "String": "Dynamite"
+            },
+            {
+              "name": "siteId",
+              "String": "/Dynamite"
+            },
+            {
+              "name": "properties",
+              "Item": {}
+            }
+          ]
+        }
+      },
+      {
+        "name": "atg:currentSiteProductionURL",
+        "String": "www.dynamiteclothing.com/ca"
+      },
+      {
+        "name": "atg:searchId",
+        "String": "152267656728033009149441"
+      }
+    ]
+  }
+}

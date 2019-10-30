@@ -1,0 +1,225 @@
+{
+  "coupons": [
+    {
+      "available": true,
+      "expires": "2018-07-07",
+      "id": "7de6426c-44a5-11e8-bbf5-0acde2fb4dd6",
+      "history": [
+        {
+          "newStatus": "assigned",
+          "oldStatus": "initialized",
+          "agent": "csighomnou@dynamite.ca",
+          "timestamp": "2018-04-20T14:17:29.754875"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-04-20T14:17:00.748764"
+        }
+      ],
+      "status": "assigned",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 20 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "20 % de rabais sur un achat LOY1LOL"
+    },
+    {
+      "available": true,
+      "expires": "2017-07-19",
+      "id": "84e13cc0-44a5-11e8-92d6-0a03a550357a",
+      "history": [
+        {
+          "newStatus": "assigned",
+          "oldStatus": "initialized",
+          "agent": "csighomnou@dynamite.ca",
+          "timestamp": "2018-04-20T14:17:31.761911"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-04-20T14:17:12.460315"
+        }
+      ],
+      "status": "assigned",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 25 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "25 % de rabais sur un achat"
+    },
+    {
+      "available": false,
+      "expires": "2019-03-11",
+      "id": "a1a760ce-22c6-11e8-90de-0acde2fb4dd6",
+      "history": [
+        {
+          "newStatus": "hold",
+          "oldStatus": "assigned",
+          "agent": "coupon_consumer_web_service",
+          "timestamp": "2018-03-08T16:20:41.637826"
+        },
+        {
+          "newStatus": "assigned",
+          "oldStatus": "initialized",
+          "agent": "",
+          "timestamp": "2018-03-08T12:50:40.370334"
+        }
+      ],
+      "status": "hold",
+      "code": "LOY2LOL",
+      "brand": "garage",
+      "readStatus": true,
+      "description": "L’offre est valide du 8 au 11 mars 2018. Présente cette offre en magasin ou applique-la lors du paiement en ligne ou sur l’application!",
+      "terms": "L’offre s’applique à l'achat de marchandise Garage à prix régulier dans tous les magasins au Canada ou aux États-Unis, sur la tablette de commerce électronique en magasin, au garageclothing.com ou sur l’application Studio Garage. EN MAGASIN SEULEMENT : L’offre ne peut être combinée avec de la marchandise en solde, mais peut être combinée avec certains articles en promotion. EN LIGNE SEULEMENT : L’offre ne peut être combinée avec de la marchandise en solde ou en promotion. L’offre est valide du 8 mars 2018 à 7 h (HE) au 11 mars 2018 à 23 h 59 (HE). Cette offre est valide pour une seule utilisation. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon ou offre, incluant toutes les autres offres de fidélité, les promotions exclusives en ligne, les offres marketing ou de centre commercial ainsi que le rabais d’employé ou de famille. Ne peut être appliqué aux dons, aux achats antérieurs ni à l’achat de cartes cadeaux, de certificats cadeaux en ligne ou de marchandise caritative. Garage n’est pas responsable des coupons perdus ou volés. L'offre est sujette à changement puisque Garage se réserve le droit de modifier ou d’annuler cette promotion sans préavis.",
+      "name": "3 JOURS SEULEMENT : 25 % DE RABAIS chez Garage en magasin, en ligne ou sur l’application, au Canada ou aux É.-U."
+    },
+    {
+      "available": true,
+      "expires": "2018-05-19",
+      "id": "76dd0668-44a5-11e8-bbf5-0acde2fb4dd6",
+      "history": [
+        {
+          "newStatus": "assigned",
+          "oldStatus": "initialized",
+          "agent": "csighomnou@dynamite.ca",
+          "timestamp": "2018-04-20T14:17:27.444353"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-04-20T14:16:48.954089"
+        }
+      ],
+      "status": "assigned",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 25 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "25 % de rabais sur un achat"
+    },
+    {
+      "available": false,
+      "expires": "2018-03-19",
+      "id": "5ceedd96-1e01-11e8-be9d-0acde2fb4dd6",
+      "history": [
+        {
+          "newStatus": "expired",
+          "oldStatus": "earned",
+          "agent": "coupons.expire_coupon",
+          "timestamp": "2018-03-20T04:01:28.519798"
+        },
+        {
+          "newStatus": "earned",
+          "oldStatus": "initialized",
+          "agent": "engine.BirthdayOffer",
+          "timestamp": "2018-03-02T10:06:23.819483"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-03-02T10:06:23.784087"
+        }
+      ],
+      "status": "expired",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 30 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "30 % de rabais sur un achat"
+    },
+    {
+      "available": true,
+      "expires": "2018-07-21",
+      "id": "6c19e21e-44a5-11e8-bfff-0a03a550357a",
+      "history": [
+        {
+          "newStatus": "assigned",
+          "oldStatus": "initialized",
+          "agent": "csighomnou@dynamite.ca",
+          "timestamp": "2018-04-20T14:17:24.903273"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-04-20T14:16:30.888930"
+        }
+      ],
+      "status": "assigned",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 20 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "20 % de rabais sur un achat LOY1LOL"
+    },
+    {
+      "available": true,
+      "expires": "2018-08-19",
+      "id": "af1b5dc6-1d50-11e8-93cd-0acde2fb4dd6",
+      "history": [
+        {
+          "newStatus": "assigned",
+          "oldStatus": "unearned",
+          "agent": "csighomnou@dynamite.ca",
+          "timestamp": "2018-04-20T14:17:33.914316"
+        },
+        {
+          "newStatus": "unearned",
+          "oldStatus": "earned",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-04-20T14:15:56.333054"
+        },
+        {
+          "newStatus": "earned",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-03-01T13:01:40.778382"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-03-01T13:01:40.740300"
+        }
+      ],
+      "status": "assigned",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 10 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "10 % de rabais sur un achat"
+    },
+    {
+      "available": true,
+
+      "expires": "2016-07-19",
+      "id": "622d7cac-44a5-11e8-bfff-0a03a550357a",
+      "history": [
+        {
+          "newStatus": "assigned",
+          "oldStatus": "initialized",
+          "agent": "csighomnou@dynamite.ca",
+          "timestamp": "2018-04-20T14:17:23.641880"
+        },
+        {
+          "newStatus": "initialized",
+          "oldStatus": "initialized",
+          "agent": "CouponProcessor",
+          "timestamp": "2018-04-20T14:16:14.235787"
+        }
+      ],
+      "status": "assigned",
+      "code": "LOY1LOL",
+      "readStatus": true,
+      "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 20 $",
+      "terms": "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+      "name": "20 % de rabais sur un achat LOY1LOL"
+    }
+  ],
+  "status": "OK"
+}

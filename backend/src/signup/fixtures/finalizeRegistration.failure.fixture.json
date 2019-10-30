@@ -1,0 +1,9 @@
+{
+  "errorMessage": "Invalid parameter value",
+  "errorDetails": "Invalid argument: regToken",
+  "statusCode": 400,
+  "errorCode": 400006,
+  "statusReason": "Bad Request",
+  "callId": "5773382e38284251a111b397a74fd00c",
+  "time": "2018-04-30T17:49:15.199Z"
+}

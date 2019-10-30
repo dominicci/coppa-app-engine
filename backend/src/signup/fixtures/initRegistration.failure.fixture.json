@@ -1,0 +1,9 @@
+{
+  "errorMessage": "Invalid ApiKey parameter",
+  "errorDetails": "Invalid ApiKey parameter: Invalid length for a Base-64 char array or string.",
+  "statusCode": 400,
+  "errorCode": 400093,
+  "statusReason": "Bad Request",
+  "callId": "776e2de789c9467bb4f3e5032dd0d917",
+  "time": "2018-04-30T17:43:16.123Z"
+}

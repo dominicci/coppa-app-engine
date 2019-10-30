@@ -1,0 +1,130 @@
+service: dyn-checkout-2
+
+# load a configuration file
+# each property of the file are available using ${self:custom.myProp}
+custom: ${file(./src/sls.js)}
+
+provider:
+  name: google
+  region: us-east1
+  runtime: nodejs8
+  project: ${self:custom.GCLOUD_PROJECT_ID}
+  credentials: ${self:custom.GCLOUD_SERVICE_KEY}
+  stage: ${opt:stage, 'dev'}
+  prefix: dyn
+  prependStage: true
+  prependService: false
+  environment:
+    STAGE: ${env:STAGE}
+    BRAND: ${env:BRAND}
+    BRAND_CODE: ${env:BRAND_CODE}
+    GIGYA_KEY: ${env:GIGYA_KEY}
+    GIGYA_SECRET: ${env:GIGYA_SECRET}
+    DOMAIN: ${env:DOMAIN}
+    ALGOLIA_APPLICATION_ID: ${env:GATSBY_ALGOLIA_APPLICATION_ID}
+    ALGOLIA_SEARCH_ONLY_API_KEY: ${env:GATSBY_ALGOLIA_SEARCH_ONLY_API_KEY}
+    ALGOLIA_PRODUCT_INDEX: ${env:GATSBY_ALGOLIA_PRODUCT_INDEX}
+    ATG_URL: ${env:ATG_URL}
+    GALE_URL: ${env:GALE_URL}
+    INFORMATICA_STRIKEIRON_USERID: ${env:GATSBY_INFORMATICA_STRIKEIRON_USERID}
+    INFORMATICA_STRIKEIRON_PASSWORD: ${env:INFORMATICA_STRIKEIRON_PASSWORD}
+    DUMMY_PASSWORD: ${env:DUMMY_PASSWORD}
+    GOOGLE_MAPS_API_KEY: ${env:GOOGLE_MAPS_API_KEY}
+    FIRESTORE_PROJECT_ID: ${env:FIRESTORE_PROJECT_ID}
+    FIRESTORE_ENVIRONMENT_ID: ${env:FIRESTORE_ENVIRONMENT_ID}
+    THREAT_METRIX_ORG_ID: ${env:THREAT_METRIX_ORG_ID}
+    FF_OMNI: ${env:FF_OMNI}
+    INVENTORY_VIEW_US: ${env:INVENTORY_VIEW_US}
+    INVENTORY_VIEW_CA: ${env:INVENTORY_VIEW_CA}
+    GCLOUD_PROJECT_ID: ${env:GCLOUD_PROJECT_ID}
+    FIND_IN_STORE_API_URL: ${env:FIND_IN_STORE_API_URL}
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-google-cloudfunctions-awesome
+
+package:
+  exclude:
+    - "**/fixtures/**"
+    - "**/*.test.js"
+    - coverage/**
+    - node_modules/**
+    - .gitignore
+    - .git/**
+
+functions:
+  commit-credit-card-order:
+    handler: commit-credit-card-order
+    events:
+      - http: path
+
+  verify-address:
+    handler: verify-address
+    events:
+      - http: path
+
+  addresses:
+    handler: addresses
+    events:
+      - http: path
+
+  set-shipping-address:
+    handler: set-shipping-address
+    events:
+      - http: path
+
+  retrieve-cart-summary:
+    handler: retrieve-cart-summary
+    events:
+      - http: path
+
+  update-item-quantity:
+    handler: update-item-quantity
+    events:
+      - http: path
+
+  get-order-history:
+    handler: get-order-history
+    events:
+      - http: path
+   
+  add-to-cart:
+    handler: add-to-cart
+    events:
+      - http: path    
+
+  add-giftcard-to-cart:
+    handler: add-giftcard-to-cart
+    events:
+      - http: path   
+
+  remove-credit-card:
+    handler: remove-credit-card
+    events:
+      - http: path  
+
+  remove-item-from-order:
+    handler: remove-item-from-order
+    events:
+      - http: path
+
+  set-billing-address:
+    handler: set-billing-address
+    events:
+      - http: path
+
+
+  get-google-places:
+    handler: get-google-places
+    events:
+      - http: path
+
+  get-store-locations:
+    handler: get-store-locations
+    events:
+      - http: path
+
+  set-ship-to-store:
+    handler: set-ship-to-store
+    events:
+      - http: path

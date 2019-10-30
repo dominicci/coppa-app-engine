@@ -1,0 +1,195 @@
+{
+  "transactions": 12,
+  "memberId": "0167810522",
+  "code": "20000",
+  "badges": [
+    {
+      "requirements": [
+        {
+          "progress": 926.38,
+          "target": 500,
+          "requirement_id": "47f4ed34-2c50-11e7-a140-0a3296c91799"
+        }
+      ],
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "newStatus": "earned",
+          "timestamp": "2017-08-01T10:59:00.888193",
+          "agent": "BadgeProcessor"
+        },
+        {
+          "oldStatus": "initialized",
+          "newStatus": "initialized",
+          "timestamp": "2017-06-28T15:08:13.694348",
+          "agent": "BadgeProcessor"
+        }
+      ],
+      "earned": true,
+      "customerAwardId": "9b3fc55c-5c13-11e7-8cb8-0a1b699d4cdd",
+      "readStatus": false,
+      "badgeId": "spend500",
+      "status": "earned"
+    },    
+    {
+      "requirements": [
+        {
+          "progress": 1,
+          "target": 1,
+          "requirement_id": "b2bcf70c-2c4f-11e7-a140-0a3296c91799"
+        },
+        {
+          "progress": 1,
+          "target": 3,
+          "requirement_id": "b2bcf70c-2c4f-11e7-a140-0a3296c91788"
+        }
+      ],
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "newStatus": "earned",
+          "timestamp": "2017-06-28T15:09:24.289591",
+          "agent": "BadgeProcessor"
+        },
+        {
+          "oldStatus": "initialized",
+          "newStatus": "initialized",
+          "timestamp": "2017-06-28T15:08:13.348902",
+          "agent": "BadgeProcessor"
+        }
+      ],
+      "earned": false,
+      "customerAwardId": "9b090cec-5c13-11e7-8cb8-0a1b699d4cdd",
+      "readStatus": true,
+      "badgeId": "buildprofile",
+      "status": "initialized"
+    },
+    {
+      "requirements": [
+        {
+          "progress": 8,
+          "target": 3,
+          "requirement_id": "ee0cdc8c-2c4f-11e7-a140-0a3296c91799"
+        }
+      ],
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "newStatus": "earned",
+          "timestamp": "2017-07-12T19:01:56.268030",
+          "agent": "BadgeProcessor"
+        },
+        {
+          "oldStatus": "initialized",
+          "newStatus": "initialized",
+          "timestamp": "2017-06-28T15:08:13.427643",
+          "agent": "BadgeProcessor"
+        }
+      ],
+      "earned": true,
+      "customerAwardId": "9b16a410-5c13-11e7-8cb8-0a1b699d4cdd",
+      "readStatus": false,
+      "badgeId": "buy3times",
+      "status": "earned"
+    },
+    {
+      "requirements": [
+        {
+          "progress": 8,
+          "target": 5,
+          "requirement_id": "0b033642-2c50-11e7-a140-0a3296c91799"
+        }
+      ],
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "newStatus": "earned",
+          "timestamp": "2017-08-01T10:58:58.480175",
+          "agent": "BadgeProcessor"
+        },
+        {
+          "oldStatus": "initialized",
+          "newStatus": "initialized",
+          "timestamp": "2017-06-28T15:08:13.470513",
+          "agent": "BadgeProcessor"
+        }
+      ],
+      "earned": false,
+      "customerAwardId": "9b1d99d2-5c13-11e7-8cb8-0a1b699d4cdd",
+      "readStatus": false,
+      "badgeId": "buy5times",
+      "status": "initialized"
+    },
+    {
+      "requirements": [
+        {
+          "progress": 926.38,
+          "target": 200,
+          "requirement_id": "25287302-2c50-11e7-a140-0a3296c91799"
+        }
+      ],
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "newStatus": "earned",
+          "timestamp": "2017-06-28T16:41:52.296513",
+          "agent": "BadgeProcessor"
+        },
+        {
+          "oldStatus": "initialized",
+          "newStatus": "initialized",
+          "timestamp": "2017-06-28T15:08:13.656264",
+          "agent": "BadgeProcessor"
+        }
+      ],
+      "earned": true,
+      "customerAwardId": "9b21fe14-5c13-11e7-8cb8-0a1b699d4cdd",
+      "readStatus": false,
+      "badgeId": "spend200",
+      "status": "earned"
+    },
+    {
+      "requirements": [
+        {
+          "progress": 2,
+          "target": 2,
+          "requirement_id": "d08d3c60-2c4f-11e7-a140-0a3296c91799"
+        }
+      ],
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "newStatus": "earned",
+          "timestamp": "2017-08-17T16:52:43.021704",
+          "agent": "BadgeProcessor"
+        },
+        {
+          "oldStatus": "initialized",
+          "newStatus": "initialized",
+          "timestamp": "2017-06-28T15:08:13.390106",
+          "agent": "BadgeProcessor"
+        }
+      ],
+      "earned": true,
+      "customerAwardId": "9b112c56-5c13-11e7-8cb8-0a1b699d4cdd",
+      "readStatus": false,
+      "badgeId": "buy2ways",
+      "status": "earned"
+    }
+  ],
+  "brands": {
+    "garage": true,
+    "dynamite": true
+  },
+  "joinedDate": "2017-06-28",
+  "vip": false,
+  "profileComplete": true,
+  "badgesEarned": 6,
+  "netSpend": 975,
+  "status": "OK",
+  "channels": {
+    "mobile": false,
+    "online": false,
+    "store": true
+  }
+}

@@ -1,0 +1,12 @@
+kind: DestinationRule
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: {{ .Release.Name }}-destination-rule
+  namespace: {{ .Release.Namespace }}
+  {{- include "rover.labels" . }}
+spec:
+  host: {{ .Release.Name }}-service.{{ .Release.Namespace }}.svc.cluster.local
+  subsets:
+      - name: {{ .Values.stage }}
+        labels:
+          version: {{ .Values.stage }}

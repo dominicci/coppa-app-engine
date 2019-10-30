@@ -1,0 +1,132 @@
+service: dyn-common
+
+# load a configuration file
+# each property of the file are available using ${self:custom.myProp}
+custom: ${file(./src/sls.js)}
+
+provider:
+  name: google
+  region: us-east1
+  runtime: nodejs8
+  project: ${self:custom.GCLOUD_PROJECT_ID}
+  credentials: ${self:custom.GCLOUD_SERVICE_KEY}
+  stage: ${opt:stage, 'dev'}
+  prefix: dyn
+  prependStage: true
+  prependService: false
+  environment:
+    STAGE: ${env:STAGE}
+    BRAND: ${env:BRAND}
+    BRAND_CODE: ${env:BRAND_CODE}
+    GIGYA_KEY: ${env:GIGYA_KEY}
+    GIGYA_SECRET: ${env:GIGYA_SECRET}
+    DOMAIN: ${env:DOMAIN}
+    ALGOLIA_APPLICATION_ID: ${env:GATSBY_ALGOLIA_APPLICATION_ID}
+    ALGOLIA_SEARCH_ONLY_API_KEY: ${env:GATSBY_ALGOLIA_SEARCH_ONLY_API_KEY}
+    ALGOLIA_PRODUCT_INDEX: ${env:GATSBY_ALGOLIA_PRODUCT_INDEX}
+    ATG_URL: ${env:ATG_URL}
+    GALE_URL: ${env:GALE_URL}
+    INFORMATICA_STRIKEIRON_USERID: ${env:GATSBY_INFORMATICA_STRIKEIRON_USERID}
+    INFORMATICA_STRIKEIRON_PASSWORD: ${env:INFORMATICA_STRIKEIRON_PASSWORD}
+    DUMMY_PASSWORD: ${env:DUMMY_PASSWORD}
+    GOOGLE_MAPS_API_KEY: ${env:GOOGLE_MAPS_API_KEY}
+    FIRESTORE_PROJECT_ID: ${env:FIRESTORE_PROJECT_ID}
+    FIRESTORE_ENVIRONMENT_ID: ${env:FIRESTORE_ENVIRONMENT_ID}
+    THREAT_METRIX_ORG_ID: ${env:THREAT_METRIX_ORG_ID}
+    FF_OMNI: ${env:FF_OMNI}
+    INVENTORY_VIEW_US: ${env:INVENTORY_VIEW_US}
+    INVENTORY_VIEW_CA: ${env:INVENTORY_VIEW_CA}
+    GCLOUD_PROJECT_ID: ${env:GCLOUD_PROJECT_ID}
+    INVENTORY_API_URL: ${env:INVENTORY_API_URL}
+    INVENTORY_MEMCACHE_URL: ${env:INVENTORY_MEMCACHE_URL}
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-google-cloudfunctions-awesome
+
+package:
+  exclude:
+    - "**/fixtures/**"
+    - "**/*.test.js"
+    - coverage/**
+    - node_modules/**
+    - .gitignore
+    - .git/**
+
+functions:
+  signup:
+    handler: signup
+    events:
+      - http: path
+
+  handle-new-account-spam:
+    handler: handle-new-account-spam
+    events:
+      - event:
+          eventType: providers/cloud.pubsub/eventTypes/topic.publish
+          resource: projects/${self:custom.GCLOUD_PROJECT_ID}/topics/${env:BRAND_CODE, 'dyn'}-${self:provider.stage}-new-account
+
+  search:
+    handler: search
+    events:
+      - http: path
+
+  join-newsletter:
+    handler: join-newsletter
+    events:
+      - http: path
+
+  quick-profile:
+    handler: quick-profile
+    events:
+      - http: path
+
+  loyalty-user-coupons:
+    handler: loyalty-user-coupons
+    events:
+      - http: path
+
+  loyalty-user-status:
+    handler: loyalty-user-status
+    events:
+      - http: path
+
+  style-survey:
+    handler: style-survey
+    events:
+      - http: path
+
+  notifications:
+    handler: notifications
+    events:
+      - http: path
+
+  upgrade-account:
+    handler: upgrade-account
+    events:
+      - http: path
+
+  docs:
+    handler: docs
+    events:
+      - http: path
+
+  termsandconditions:
+    handler: termsandconditions
+    events:
+      - http: path
+
+  recommended:
+    handler: recommended
+    events:
+      - http: path
+
+  user-webhook:
+    handler: user-webhook
+    events:
+      - http: path
+
+  get-inventory:
+    handler: get-inventory
+    events:
+      - http: path

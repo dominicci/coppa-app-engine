@@ -1,0 +1,258 @@
+[
+  {
+    "badges": {
+      "seen": true,
+      "ids": ["buildprofile", "buy2ways", "spend200"]
+    },
+    "coupons": {
+      "seen": true,
+      "ids": [
+        "284a2876-7945-11e8-ba83-0acde2fb4dd6",
+        "284a2876-7945-22e6-ba83-0acde2fb4dd6",
+        "284a2877-7945-33e6-ba83-0hike2fb4dd6"
+      ]
+    }
+  },
+  {
+    "ca": [
+      {
+        "history": [
+          {
+            "newStatus": "earned",
+            "oldStatus": "initialized",
+            "timestamp": "2018-06-26T13:30:57.083643",
+            "agent": "CouponProcessor"
+          },
+          {
+            "newStatus": "initialized",
+            "oldStatus": "initialized",
+            "timestamp": "2018-06-26T13:30:57.057197",
+            "agent": "CouponProcessor"
+          }
+        ],
+        "id": "284a2876-7945-11e8-ba83-0acde2fb4dd6",
+        "description": "Excludes gift card purchases, up to a maximum discount of $10",
+        "status": "earned",
+        "readStatus": false,
+        "code": "LOY17PROFIL10",
+        "name": "10% off one purchase LOY17PROFIL10",
+        "available": true,
+        "terms":
+          "Offer valid for one time usage on regular, sale and promotional merchandise at any Garage or Dynamite store in Canada or the USA, on the in-store e-comm tablet or on Garage.ca or Dynamiteclothing.com or on the Garage or Dynamite app. No minimum spend required. One coupon per customer per transaction.  This offer is not transferable. Customer must present digital coupon and loyalty I.D. to benefit from this offer in-store. Photocopies or facsimiles will not be accepted. The coupon is not redeemable for cash and cannot be combined with any other coupon or offer, including any other loyalty offer, online exclusive promotion, any mall offer, marketing offer or employee or family discount. Cannot be used on previous purchases or towards the purchase of gift cards, e-gift cards, the sale of charitable merchandise or donations. Garage/Dynamite is not responsible for lost or stolen coupons.",
+        "expires": "2018-09-24"
+      },
+      {
+        "history": [
+          {
+            "newStatus": "earned",
+            "oldStatus": "initialized",
+            "timestamp": "2018-06-26T13:30:57.083643",
+            "agent": "CouponProcessor"
+          },
+          {
+            "newStatus": "initialized",
+            "oldStatus": "initialized",
+            "timestamp": "2018-06-26T13:30:57.057197",
+            "agent": "CouponProcessor"
+          }
+        ],
+        "id": "284a2876-7945-22e6-ba83-0acde2fb4dd6",
+        "description": "Excludes gift card purchases, up to a maximum discount of $10",
+        "status": "earned",
+        "readStatus": false,
+        "code": "LOY17PROFIL10",
+        "name": "10% off one purchase LOY17PROFIL10",
+        "available": true,
+        "terms":
+          "Offer valid for one time usage on regular, sale and promotional merchandise at any Garage or Dynamite store in Canada or the USA, on the in-store e-comm tablet or on Garage.ca or Dynamiteclothing.com or on the Garage or Dynamite app. No minimum spend required. One coupon per customer per transaction.  This offer is not transferable. Customer must present digital coupon and loyalty I.D. to benefit from this offer in-store. Photocopies or facsimiles will not be accepted. The coupon is not redeemable for cash and cannot be combined with any other coupon or offer, including any other loyalty offer, online exclusive promotion, any mall offer, marketing offer or employee or family discount. Cannot be used on previous purchases or towards the purchase of gift cards, e-gift cards, the sale of charitable merchandise or donations. Garage/Dynamite is not responsible for lost or stolen coupons.",
+        "expires": "2018-09-24"
+      },
+      {
+        "history": [
+          {
+            "newStatus": "earned",
+            "oldStatus": "initialized",
+            "timestamp": "2018-06-26T13:30:57.083643",
+            "agent": "CouponProcessor"
+          },
+          {
+            "newStatus": "initialized",
+            "oldStatus": "initialized",
+            "timestamp": "2018-06-26T13:30:57.057197",
+            "agent": "CouponProcessor"
+          }
+        ],
+        "id": "284a2877-7945-33e6-ba83-0hike2fb4dd6",
+        "description": "Excludes gift card purchases, up to a maximum discount of $10",
+        "status": "earned",
+        "readStatus": false,
+        "code": "LOY17PROFIL10",
+        "name": "10% off one purchase LOY17PROFIL10",
+        "available": true,
+        "terms":
+          "Offer valid for one time usage on regular, sale and promotional merchandise at any Garage or Dynamite store in Canada or the USA, on the in-store e-comm tablet or on Garage.ca or Dynamiteclothing.com or on the Garage or Dynamite app. No minimum spend required. One coupon per customer per transaction.  This offer is not transferable. Customer must present digital coupon and loyalty I.D. to benefit from this offer in-store. Photocopies or facsimiles will not be accepted. The coupon is not redeemable for cash and cannot be combined with any other coupon or offer, including any other loyalty offer, online exclusive promotion, any mall offer, marketing offer or employee or family discount. Cannot be used on previous purchases or towards the purchase of gift cards, e-gift cards, the sale of charitable merchandise or donations. Garage/Dynamite is not responsible for lost or stolen coupons.",
+        "expires": "2018-09-24"
+      }
+    ],
+    "us": [
+      {
+        "code": "LOY17PROFIL10",
+        "status": "earned",
+        "available": true,
+        "readStatus": false,
+        "id": "284a2876-7945-11e8-ba83-0acde2fb4dd6",
+        "history": [
+          {
+            "timestamp": "2018-06-26T13:30:57.083643",
+            "oldStatus": "initialized",
+            "newStatus": "earned",
+            "agent": "CouponProcessor"
+          },
+          {
+            "timestamp": "2018-06-26T13:30:57.057197",
+            "oldStatus": "initialized",
+            "newStatus": "initialized",
+            "agent": "CouponProcessor"
+          }
+        ],
+        "terms":
+          "Offer valid for one time usage on regular, sale and promotional merchandise at any Garage or Dynamite store in Canada or the USA, on the in-store e-comm tablet or on Garage.ca or Dynamiteclothing.com or on the Garage or Dynamite app. No minimum spend required. One coupon per customer per transaction.  This offer is not transferable. Customer must present digital coupon and loyalty I.D. to benefit from this offer in-store. Photocopies or facsimiles will not be accepted. The coupon is not redeemable for cash and cannot be combined with any other coupon or offer, including any other loyalty offer, online exclusive promotion, any mall offer, marketing offer or employee or family discount. Cannot be used on previous purchases or towards the purchase of gift cards, e-gift cards, the sale of charitable merchandise or donations. Garage/Dynamite is not responsible for lost or stolen coupons.",
+        "name": "10% off one purchase LOY17PROFIL10",
+        "description": "Excludes gift card purchases, up to a maximum discount of $10",
+        "expires": "2018-09-24"
+      }
+    ],
+    "fr-ca": [
+      {
+        "history": [
+          {
+            "oldStatus": "initialized",
+            "agent": "CouponProcessor",
+            "timestamp": "2018-06-26T13:30:57.083643",
+            "newStatus": "earned"
+          },
+          {
+            "oldStatus": "initialized",
+            "agent": "CouponProcessor",
+            "timestamp": "2018-06-26T13:30:57.057197",
+            "newStatus": "initialized"
+          }
+        ],
+        "description": "Excluant l'achat de cartes cadeaux et jusqu'à un rabais maximal de 10 $",
+        "status": "earned",
+        "available": true,
+        "expires": "2018-09-24",
+        "name": "10 % de rabais sur un achat",
+        "readStatus": false,
+        "id": "284a2876-7945-11e8-ba83-0acde2fb4dd6",
+        "terms":
+          "L’offre est valide une seule fois à l’achat de marchandise à prix régulier, en solde ou en promotion dans tous les magasins Garage ou Dynamite du Canada et des États-Unis ainsi que sur la tablette de commerce électronique, au Garage.ca, au Dynamiteclothing.com ou sur l’application Dynamite et Garage. Aucun achat minimum requis. Un coupon par cliente, par transaction. Cette offre n’est pas transférable. La cliente doit présenter le coupon numérique et son ID de fidélité pour profiter de cette offre en magasin. Les photocopies et les facsimilés ne seront pas acceptés. Le coupon n’est pas échangeable contre de l’argent et ne peut être combiné avec tout autre coupon et offre incluant d’autres offres de fidélité, des promotions exclusives en ligne, toute offre du centre commercial ou marketing, ainsi que le rabais employé et famille. Ne peut être utilisé pour l’achat de cartes cadeaux, certificats cadeaux en ligne ou pour l’achat de marchandise caritative ou les dons. Garage/Dynamite n’est pas responsable des coupons perdus ou volés.",
+        "code": "LOY17PROFIL10"
+      }
+    ]
+  },
+  [
+    {
+      "requirements": [
+        {
+          "requirement_id": "b2bcf70c-2c4f-11e7-a140-0a3296c91799",
+          "target": 1,
+          "progress": 1,
+          "progressPercentage": 100
+        }
+      ],
+      "status": "earned",
+      "badgeId": "buildprofile",
+      "earned": true,
+      "customerAwardId": "83151918-3cce-11e8-9628-0af4911c5984",
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "timestamp": "2018-06-26T13:30:56.992028",
+          "agent": "BadgeProcessor",
+          "newStatus": "earned"
+        },
+        {
+          "oldStatus": "initialized",
+          "timestamp": "2018-04-10T14:50:29.501522",
+          "agent": "BadgeProcessor",
+          "newStatus": "initialized"
+        }
+      ],
+      "readStatus": false,
+      "progressPercentage": 100
+    },
+    {
+      "requirements": [
+        {
+          "requirement_id": "d08d3c60-2c4f-11e7-a140-0a3296c91799",
+          "target": 2,
+          "progress": 0,
+          "progressPercentage": 0
+        }
+      ],
+      "status": "initialized",
+      "badgeId": "buy2ways",
+      "earned": true,
+      "customerAwardId": "831c139e-3cce-11e8-9628-0af4911c5984",
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "timestamp": "2018-04-10T14:50:29.550164",
+          "agent": "BadgeProcessor",
+          "newStatus": "initialized"
+        }
+      ],
+      "readStatus": false,
+      "progressPercentage": 0
+    },
+    {
+      "requirements": [
+        {
+          "requirement_id": "25287302-2c50-11e7-a140-0a3296c91799",
+          "target": 200,
+          "progress": 0,
+          "progressPercentage": 0
+        }
+      ],
+      "status": "initialized",
+      "badgeId": "spend200",
+      "earned": true,
+      "customerAwardId": "8334e946-3cce-11e8-9628-0af4911c5984",
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "timestamp": "2018-04-10T14:50:29.711136",
+          "agent": "BadgeProcessor",
+          "newStatus": "initialized"
+        }
+      ],
+      "readStatus": false,
+      "progressPercentage": 0
+    },
+    {
+      "requirements": [
+        {
+          "requirement_id": "47f4ed34-2c50-11e7-a140-0a3296c91799",
+          "target": 500,
+          "progress": 0,
+          "progressPercentage": 0
+        }
+      ],
+      "status": "initialized",
+      "badgeId": "spend500",
+      "earned": false,
+      "customerAwardId": "833cea38-3cce-11e8-9628-0af4911c5984",
+      "history": [
+        {
+          "oldStatus": "initialized",
+          "timestamp": "2018-04-10T14:50:29.765140",
+          "agent": "BadgeProcessor",
+          "newStatus": "initialized"
+        }
+      ],
+      "readStatus": false,
+      "progressPercentage": 0
+    }
+  ]
+]

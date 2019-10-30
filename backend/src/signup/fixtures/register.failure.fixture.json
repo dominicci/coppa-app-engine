@@ -1,0 +1,16 @@
+{
+  "validationErrors": [
+    {
+      "errorCode": 400003,
+      "message": "email already exists",
+      "fieldName": "email"
+    }
+  ],
+  "errorMessage": "Validation error",
+  "errorDetails": "Validation failed",
+  "statusCode": 400,
+  "errorCode": 400009,
+  "statusReason": "Bad Request",
+  "callId": "1f335b4d14974bdc9cb8622781d31907",
+  "time": "2018-04-30T17:45:24.840Z"
+}

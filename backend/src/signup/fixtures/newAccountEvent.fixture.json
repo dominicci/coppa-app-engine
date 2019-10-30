@@ -1,0 +1,7 @@
+{
+  "eventId": "61970680061857",
+  "timestamp": "2018-05-09T17:52:36.688Z",
+  "eventType": "providers/cloud.pubsub/eventTypes/topic.publish",
+  "resource": "projects/digital-xyz/topics/new-account",
+  "data": "eyJlbWFpbCI6Im1tYXNzb3VkQGdhcmFnZWUuaW5mbyIsInVpZCI6IjAyOTk0ZWZlYjY3NzQ5OGY4ZmMwNzc4NDM3NTYzNjg2IiwiYmFubmVyIjoiZHluYW1pdGUiLCJzb3VyY2UiOiJDUkVBVEVfREVTS1RPUF9MT1kiLCJsYW5nIjoiZnItY2EiLCJoYXNBZ3JlZWRUZXJtcyI6InRydWUifQ=="
+}

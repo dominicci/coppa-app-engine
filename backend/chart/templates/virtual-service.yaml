@@ -1,0 +1,18 @@
+kind: VirtualService
+apiVersion: networking.istio.io/v1alpha3
+metadata:
+  name: {{ .Release.Name }}-virtual-service
+  namespace: {{ .Release.Namespace }}
+  {{- include "rover.labels" . }}
+    app: {{ .Values.env }}-{{ .Values.brandCode }}
+spec:
+  gateways:
+    - {{ .Release.Name }}-gateway.{{ .Release.Namespace }}.svc.cluster.local
+  hosts:
+    - {{ .Values.host }}
+  http:
+    - route:
+      - destination:
+          host: {{ .Release.Name }}-service.{{ .Release.Namespace }}.svc.cluster.local
+          subset: {{ .Values.stage }}
+        weight: 100

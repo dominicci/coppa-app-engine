@@ -1,0 +1,17 @@
+# Deploy a 1:1 Service for it
+kind: Service
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}-service
+  namespace: {{ .Release.Namespace }}
+  {{- include "rover.labels" . }}
+    app: coppa-{{ .Values.env }}-{{ .Values.brandCode }}
+spec:
+  ports:
+    - name: https
+      port: 443
+      targetPort: 8080
+  selector:
+    app: coppa-{{ .Values.env }}-{{ .Values.brandCode }}
+    brand: {{ .Values.brand }}
+    version: {{ .Values.stage }}

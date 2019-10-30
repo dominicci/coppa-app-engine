@@ -1,0 +1,13 @@
+kind: PersistentVolume
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}-vol-nfs
+spec:
+  accessModes:
+    - ReadWriteMany
+  capacity:
+    storage: 1T
+  nfs:
+    path: /data
+    server: 10.71.98.10
+  persistentVolumeReclaimPolicy: Retain

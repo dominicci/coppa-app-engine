@@ -1,0 +1,39 @@
+{
+  "sessionInfo": {
+    "cookieName": "gac_2_ddxTpQZ_zGiuCsCePVKC6bZcBp_qD-pjql",
+    "cookieValue": "VC1_739B3B4AD534B6F62AHNld3Knl98Q_vGL5_SxwA=="
+  },
+  "UID": "e862a450214c46b3973ff3c8368d1c7e",
+  "UIDSignature": "iwPwRr3oDmbb8hhTeoO5JHTrc2Y=",
+  "signatureTimestamp": "1344415327",
+  "loginProvider": "site",
+  "isRegistered": true,
+  "registeredTimestamp": 1344415327000,
+  "registered": "2012-08-08T08:42:07Z",
+  "isActive": true,
+  "isVerified": true,
+  "verifiedTimestamp": 1344413279133,
+  "verified": "2012-08-08T08:07:59.133Z",
+  "socialProviders": "site",
+  "profile": {
+    "email": "Joe@hotmail.com",
+    "firstName": "Joe",
+    "lastName": "Smith",
+    "age": "31",
+    "gender": "m",
+    "country": "US"
+  },
+  "created": "2012-08-08T08:07:59.128Z",
+  "createdTimestamp": 1344413279128,
+  "lastLogin": "2012-08-08T08:42:07Z",
+  "lastLoginTimestamp": 1344415327000,
+  "lastUpdated": "2012-08-08T08:07:59.133Z",
+  "lastUpdatedTimestamp": 1344413279133,
+  "oldestDataUpdated": "2012-08-08T08:07:59.133Z",
+  "oldestDataUpdatedTimestamp": 1344413279133,
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "8fb3eaf37a424cae8c3e6fe3f53cc177",
+  "time": "2015-03-22T11:42:25.943Z"
+}

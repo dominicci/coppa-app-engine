@@ -1,0 +1,545 @@
+{
+  "Item": {
+    "xmlns": "http://endeca.com/schema/xavia/2010",
+    "type": "TypeAheadService",
+    "Property": [
+      {
+        "name": "productSearchResults",
+        "Item": {
+          "type": "ProductAutoSuggestResultsList",
+          "Property": [
+            {
+              "name": "pagingActionTemplate",
+              "Item": {
+                "class": "class com.endeca.infront.cartridge.model.NavigationAction",
+                "Property": [
+                  {
+                    "name": "navigationState",
+                    "String": "?No=%7Boffset%7D&Nrpp=%7BrecordsPerPage%7D"
+                  },
+                  {
+                    "name": "siteRootPath",
+                    "String": "/services"
+                  },
+                  {
+                    "name": "siteState",
+                    "Item": {
+                      "class": "com.endeca.infront.site.model.SiteState",
+                      "$t": "",
+                      "Property": [
+                        {
+                          "name": "contentPath",
+                          "String": "/search/type-ahead/type-ahead.jsp"
+                        },
+                        {
+                          "name": "siteDisplayName",
+                          "String": "Dynamite"
+                        },
+                        {
+                          "name": "siteId",
+                          "String": "/Dynamite"
+                        },
+                        {
+                          "name": "properties",
+                          "Item": {}
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "name": "contentPath",
+                    "String": "/guidedsearch"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "lastRecNum",
+              "Long": "3"
+            },
+            {
+              "name": "records",
+              "List": {
+                "Item": [
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.Record",
+                    "Property": [
+                      {
+                        "name": "numRecords",
+                        "Long": "0"
+                      },
+                      {
+                        "name": "detailsAction",
+                        "Item": {
+                          "class": "class com.endeca.infront.cartridge.model.RecordAction",
+                          "Property": [
+                            {
+                              "name": "siteRootPath",
+                              "String": "/services"
+                            },
+                            {
+                              "name": "siteState",
+                              "Item": {
+                                "class": "com.endeca.infront.site.model.SiteState",
+                                "$t": "",
+                                "Property": [
+                                  {
+                                    "name": "contentPath",
+                                    "String": "/search/type-ahead/type-ahead.jsp"
+                                  },
+                                  {
+                                    "name": "siteDisplayName",
+                                    "String": "Dynamite"
+                                  },
+                                  {
+                                    "name": "siteId",
+                                    "String": "/Dynamite"
+                                  },
+                                  {
+                                    "name": "properties",
+                                    "Item": {}
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "name": "contentPath",
+                              "String": "/recorddetails"
+                            },
+                            {
+                              "name": "recordState",
+                              "String": "?R=product-100033313..dynamiteCatalogUS.en__US.salePricesUS__listPricesUS.dynamiteSiteUS"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "attributes",
+                        "Item": {
+                          "Property": [
+                            {
+                              "name": "product.finalUrl",
+                              "List": {
+                                "String": "racerback-lace-bralette/p/100033313"
+                              }
+                            },
+                            {
+                              "name": "product.repositoryId",
+                              "List": {
+                                "String": "100033313"
+                              }
+                            },
+                            {
+                              "name": "product.displayName",
+                              "List": {
+                                "String": "Racerback Lace Bralette"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.Record",
+                    "Property": [
+                      {
+                        "name": "numRecords",
+                        "Long": "0"
+                      },
+                      {
+                        "name": "detailsAction",
+                        "Item": {
+                          "class": "class com.endeca.infront.cartridge.model.RecordAction",
+                          "Property": [
+                            {
+                              "name": "siteRootPath",
+                              "String": "/services"
+                            },
+                            {
+                              "name": "siteState",
+                              "Item": {
+                                "class": "com.endeca.infront.site.model.SiteState",
+                                "$t": "",
+                                "Property": [
+                                  {
+                                    "name": "contentPath",
+                                    "String": "/search/type-ahead/type-ahead.jsp"
+                                  },
+                                  {
+                                    "name": "siteDisplayName",
+                                    "String": "Dynamite"
+                                  },
+                                  {
+                                    "name": "siteId",
+                                    "String": "/Dynamite"
+                                  },
+                                  {
+                                    "name": "properties",
+                                    "Item": {}
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "name": "contentPath",
+                              "String": "/recorddetails"
+                            },
+                            {
+                              "name": "recordState",
+                              "String": "?R=product-100027385..dynamiteCatalogUS.en__US.salePricesUS__listPricesUS.dynamiteSiteUS"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "attributes",
+                        "Item": {
+                          "Property": [
+                            {
+                              "name": "product.finalUrl",
+                              "List": {
+                                "String": "kate-high-rise-black-distressed-skinny-jean/p/100027385"
+                              }
+                            },
+                            {
+                              "name": "product.repositoryId",
+                              "List": {
+                                "String": "100027385"
+                              }
+                            },
+                            {
+                              "name": "product.displayName",
+                              "List": {
+                                "String": "Kate High Rise Black Distressed Skinny Jean"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.Record",
+                    "Property": [
+                      {
+                        "name": "numRecords",
+                        "Long": "0"
+                      },
+                      {
+                        "name": "detailsAction",
+                        "Item": {
+                          "class": "class com.endeca.infront.cartridge.model.RecordAction",
+                          "Property": [
+                            {
+                              "name": "siteRootPath",
+                              "String": "/services"
+                            },
+                            {
+                              "name": "siteState",
+                              "Item": {
+                                "class": "com.endeca.infront.site.model.SiteState",
+                                "$t": "",
+                                "Property": [
+                                  {
+                                    "name": "contentPath",
+                                    "String": "/search/type-ahead/type-ahead.jsp"
+                                  },
+                                  {
+                                    "name": "siteDisplayName",
+                                    "String": "Dynamite"
+                                  },
+                                  {
+                                    "name": "siteId",
+                                    "String": "/Dynamite"
+                                  },
+                                  {
+                                    "name": "properties",
+                                    "Item": {}
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "name": "contentPath",
+                              "String": "/recorddetails"
+                            },
+                            {
+                              "name": "recordState",
+                              "String": "?R=product-100020253..dynamiteCatalogUS.en__US.salePricesUS__listPricesUS.dynamiteSiteUS"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "attributes",
+                        "Item": {
+                          "Property": [
+                            {
+                              "name": "product.finalUrl",
+                              "List": {
+                                "String": "cara-high-rise-light-wash-distressed-jeans/p/100020253"
+                              }
+                            },
+                            {
+                              "name": "product.repositoryId",
+                              "List": {
+                                "String": "100020253"
+                              }
+                            },
+                            {
+                              "name": "product.displayName",
+                              "List": {
+                                "String": "Cara High Rise Distressed Jeans"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "name": "totalNumRecs",
+              "Long": "759"
+            },
+            {
+              "name": "sortOptions",
+              "List": {
+                "Item": [
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.SortOptionLabel",
+                    "Property": [
+                      {
+                        "name": "navigationState",
+                        "String": "?Ns=sku.activePrice%7C1"
+                      },
+                      {
+                        "name": "siteRootPath",
+                        "String": "/services"
+                      },
+                      {
+                        "name": "siteState",
+                        "Item": {
+                          "class": "com.endeca.infront.site.model.SiteState",
+                          "$t": "",
+                          "Property": [
+                            {
+                              "name": "contentPath",
+                              "String": "/search/type-ahead/type-ahead.jsp"
+                            },
+                            {
+                              "name": "siteDisplayName",
+                              "String": "Dynamite"
+                            },
+                            {
+                              "name": "siteId",
+                              "String": "/Dynamite"
+                            },
+                            {
+                              "name": "properties",
+                              "Item": {}
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "label",
+                        "String": "searchresults.sort.priceDesc"
+                      },
+                      {
+                        "name": "contentPath",
+                        "String": "/guidedsearch"
+                      },
+                      {
+                        "name": "selected",
+                        "Boolean": "false"
+                      }
+                    ]
+                  },
+                  {
+                    "class": "class com.endeca.infront.cartridge.model.SortOptionLabel",
+                    "Property": [
+                      {
+                        "name": "navigationState",
+                        "String": "?Ns=sku.activePrice%7C0"
+                      },
+                      {
+                        "name": "siteRootPath",
+                        "String": "/services"
+                      },
+                      {
+                        "name": "siteState",
+                        "Item": {
+                          "class": "com.endeca.infront.site.model.SiteState",
+                          "$t": "",
+                          "Property": [
+                            {
+                              "name": "contentPath",
+                              "String": "/search/type-ahead/type-ahead.jsp"
+                            },
+                            {
+                              "name": "siteDisplayName",
+                              "String": "Dynamite"
+                            },
+                            {
+                              "name": "siteId",
+                              "String": "/Dynamite"
+                            },
+                            {
+                              "name": "properties",
+                              "Item": {}
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "name": "label",
+                        "String": "searchresults.sort.priceAsc"
+                      },
+                      {
+                        "name": "contentPath",
+                        "String": "/guidedsearch"
+                      },
+                      {
+                        "name": "selected",
+                        "Boolean": "false"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "name": "endeca:auditInfo",
+              "Item": {
+                "Property": [
+                  {
+                    "name": "ecr:resourcePath",
+                    "String": "/services/Dynamite/typeahead"
+                  },
+                  {
+                    "name": "ecr:innerPath",
+                    "String": "productSearchResults"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "firstRecNum",
+              "Long": "1"
+            },
+            {
+              "name": "precomputedSorts",
+              "List": {}
+            },
+            {
+              "name": "recsPerPage",
+              "Long": "3"
+            }
+          ]
+        }
+      },
+      {
+        "name": "endeca:contentPath",
+        "String": "/typeahead"
+      },
+      {
+        "name": "endeca:assemblerRequestInformation",
+        "Item": {
+          "type": "AssemblerRequestEvent",
+          "Property": [
+            {
+              "name": "endeca:contentPath",
+              "String": "/typeahead"
+            },
+            {
+              "name": "endeca:eneTime",
+              "Long": "6"
+            },
+            {
+              "name": "endeca:numRecords",
+              "Long": "759"
+            },
+            {
+              "name": "endeca:requestType",
+              "String": "T"
+            },
+            {
+              "name": "endeca:siteRootPath",
+              "String": "/services"
+            },
+            {
+              "name": "endeca:requestId",
+              "String": "151464"
+            },
+            {
+              "name": "endeca:assemblyStartTimestamp",
+              "Long": "1522175210518"
+            },
+            {
+              "name": "endeca:sessionId",
+              "String": "Fa+pH+peF3J6AkaGuR9vNGmI.com5"
+            },
+            {
+              "name": "endeca:assemblyFinishTimestamp",
+              "Long": "1522175210526"
+            }
+          ]
+        }
+      },
+      {
+        "name": "endeca:auditInfo",
+        "Item": {
+          "Property": {
+            "name": "ecr:resourcePath",
+            "String": "/services/Dynamite/typeahead"
+          }
+        }
+      },
+      {
+        "name": "name",
+        "String": "Type Ahead Service"
+      },
+      {
+        "name": "endeca:siteRootPath",
+        "String": "/services"
+      },
+      {
+        "name": "endeca:siteState",
+        "Item": {
+          "class": "com.endeca.infront.site.model.SiteState",
+          "$t": "",
+          "Property": [
+            {
+              "name": "contentPath",
+              "String": "/search/type-ahead/type-ahead.jsp"
+            },
+            {
+              "name": "siteDisplayName",
+              "String": "Dynamite"
+            },
+            {
+              "name": "siteId",
+              "String": "/Dynamite"
+            },
+            {
+              "name": "properties",
+              "Item": {}
+            }
+          ]
+        }
+      },
+      {
+        "name": "atg:currentSiteProductionURL",
+        "String": "www.dynamiteclothing.com/us"
+      },
+      {
+        "name": "atg:searchId",
+        "String": "1522175210526890170251"
+      }
+    ]
+  }
+}

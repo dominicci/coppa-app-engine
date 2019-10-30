@@ -1,0 +1,15 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: {{ .Release.Name }}-pvc-nfs
+  namespace: {{ .Release.Namespace }}
+  {{- include "rover.labels" . }}
+spec:
+  storageClassName: ""
+  volumeName: {{ .Release.Name }}-vol-nfs
+  volumeMode: Filesystem
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 100Gi

@@ -1,0 +1,30 @@
+{
+  "sessionInfo": {
+    "cookieName": "gac_3_Ot9qON2SYte5QXydxwFhGfB08awckELIGhngsW6Li0E4wz62KF_TjYC6sWVTxg8w",
+    "cookieValue": "VC1_DF4FF81F7624DCB6F7178AA387EE14BF_3Pnpm-pkQRn1uEEwIdJ_UNxLhhI5hiloz8ouZrT53UvTImiiOfeoaDz_YYAOpyfwWwcwJwY7N9CVmj8CxwXIc2IBmz41b3RVGbJn3qKMQIvLnueHw7L5bkR5Dnw5egY6rDQ9mxx5NWYm1g2yw26M9pBnDLMdKy3GYsEAlJ6-boyXG_PVHpB-LCt4owUF9tJ2KUQiQfk8L7hG-F_kZ3NuIg=="
+  },
+  "newUser": true,
+  "UID": "29b1fbfe4fd84a1183d8610d60079a18",
+  "UIDSignature": "LnyvGFiuozt9kUmX1YKYYfSlsPc=",
+  "signatureTimestamp": "1525110429",
+  "loginProvider": "site",
+  "isRegistered": true,
+  "isActive": true,
+  "isVerified": false,
+  "socialProviders": "site",
+  "created": "2018-04-30T17:45:47.281Z",
+  "createdTimestamp": 1525110347281,
+  "lastLogin": "2018-04-30T17:45:47.451Z",
+  "lastLoginTimestamp": 1525110347451,
+  "lastUpdated": "2018-04-30T17:45:47.334Z",
+  "lastUpdatedTimestamp": 1525110347334,
+  "oldestDataUpdated": "2018-04-30T17:45:47.334Z",
+  "oldestDataUpdatedTimestamp": 1525110347334,
+  "registered": "2018-04-30T17:47:08.952Z",
+  "registeredTimestamp": 1525110428952,
+  "statusCode": 200,
+  "errorCode": 0,
+  "statusReason": "OK",
+  "callId": "b99cc48e048a449db7a5a81d122205bc",
+  "time": "2018-04-30T17:47:09.093Z"
+}

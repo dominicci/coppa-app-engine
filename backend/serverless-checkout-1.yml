@@ -1,0 +1,123 @@
+service: dyn-checkout-1
+
+# load a configuration file
+# each property of the file are available using ${self:custom.myProp}
+custom: ${file(./src/sls.js)}
+
+provider:
+  name: google
+  region: us-east1
+  runtime: nodejs8
+  project: ${self:custom.GCLOUD_PROJECT_ID}
+  credentials: ${self:custom.GCLOUD_SERVICE_KEY}
+  stage: ${opt:stage, 'dev'}
+  prefix: dyn
+  prependStage: true
+  prependService: false
+  environment:
+    STAGE: ${env:STAGE}
+    BRAND: ${env:BRAND}
+    BRAND_CODE: ${env:BRAND_CODE}
+    GIGYA_KEY: ${env:GIGYA_KEY}
+    GIGYA_SECRET: ${env:GIGYA_SECRET}
+    DOMAIN: ${env:DOMAIN}
+    ALGOLIA_APPLICATION_ID: ${env:GATSBY_ALGOLIA_APPLICATION_ID}
+    ALGOLIA_SEARCH_ONLY_API_KEY: ${env:GATSBY_ALGOLIA_SEARCH_ONLY_API_KEY}
+    ALGOLIA_PRODUCT_INDEX: ${env:GATSBY_ALGOLIA_PRODUCT_INDEX}
+    ATG_URL: ${env:ATG_URL}
+    GALE_URL: ${env:GALE_URL}
+    INFORMATICA_STRIKEIRON_USERID: ${env:GATSBY_INFORMATICA_STRIKEIRON_USERID}
+    INFORMATICA_STRIKEIRON_PASSWORD: ${env:INFORMATICA_STRIKEIRON_PASSWORD}
+    DUMMY_PASSWORD: ${env:DUMMY_PASSWORD}
+    GOOGLE_MAPS_API_KEY: ${env:GOOGLE_MAPS_API_KEY}
+    FIRESTORE_PROJECT_ID: ${env:FIRESTORE_PROJECT_ID}
+    FIRESTORE_ENVIRONMENT_ID: ${env:FIRESTORE_ENVIRONMENT_ID}
+    THREAT_METRIX_ORG_ID: ${env:THREAT_METRIX_ORG_ID}
+    FF_OMNI: ${env:FF_OMNI}
+    INVENTORY_VIEW_US: ${env:INVENTORY_VIEW_US}
+    INVENTORY_VIEW_CA: ${env:INVENTORY_VIEW_CA}
+    GCLOUD_PROJECT_ID: ${env:GCLOUD_PROJECT_ID}
+
+plugins:
+  - serverless-dotenv-plugin
+  - serverless-google-cloudfunctions-awesome
+
+package:
+  exclude:
+    - "**/fixtures/**"
+    - "**/*.test.js"
+    - coverage/**
+    - node_modules/**
+    - .gitignore
+    - .git/**
+
+functions:
+  retrieve-order-summary:
+    handler: retrieve-order-summary
+    events:
+      - http: path
+
+  order-inventory-lookup:
+    handler: order-inventory-lookup
+    events:
+      - http: path
+
+  duplicate-order-validation:
+    handler: duplicate-order-validation
+    events:
+      - http: path
+
+  edit-shipping-address:
+    handler: edit-shipping-address
+    events:
+      - http: path
+
+  get-shipping-method:
+    handler: get-shipping-method
+    events:
+      - http: path
+
+  set-shipping-method:
+    handler: set-shipping-method
+    events:
+      - http: path
+
+  get-applied-giftcards:
+    handler: get-applied-giftcards
+    events:
+      - http: path
+
+  get-giftcard-balance:
+    handler: get-giftcard-balance
+    events:
+      - http: path
+
+  apply-giftcard-to-order:
+    handler: apply-giftcard-to-order
+    events:
+      - http: path
+
+  remove-giftcard-from-order:
+    handler: remove-giftcard-from-order
+    events:
+      - http: path
+
+  create-order-to-optimal-payment:
+    handler: create-order-to-optimal-payment
+    events:
+      - http: path
+
+  add-saved-credit-card:
+    handler: add-saved-credit-card
+    events:
+      - http: path
+
+  get-saved-credit-cards:
+    handler: get-saved-credit-cards
+    events:
+      - http: path
+
+  move-to-confirmation:
+    handler: move-to-confirmation
+    events:
+      - http: path
