@@ -9,12 +9,12 @@ const { handleAxios } = require('../shared')
 // userCoupons :: HttpRequest -> Future
 const userCoupons = req =>
   tryP(() => userCouponsReq(req))
-    .mapRej(err => ({ code: err.statusCode, msg: err.errorMessage }))
+    .mapRej(err => ({ code: err.statusCode || 500, msg: err.errorMessage }))
 
 // userStatus :: HttpRequest -> Future
 const userStatus = req =>
   tryP(() => userStatusReq(req))
-    .mapRej(err => ({ code: err.statusCode, msg: err.errorMessage }))
+    .mapRej(err => ({ code: err.statusCode || 500, msg: err.errorMessage }))
 
 // fetch :: HttpRequest -> Future
 const fetch = req =>
@@ -29,7 +29,7 @@ const fetch = req =>
     })
       .then(...handleAxios)
   )
-    .mapRej(err => ({ code: err.statusCode, msg: err.errorMessage }))
+    .mapRej(err => ({ code: err.statusCode || 500, msg: err.errorMessage }))
 
 // getNotificationsIo :: (HttpRequest, HttpResponse) -> Cancel
 exports.getNotificationsIo = (req, res) =>

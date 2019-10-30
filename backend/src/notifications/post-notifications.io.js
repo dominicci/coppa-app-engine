@@ -17,7 +17,7 @@ const fetch = req =>
     })
       .then(...handleAxios)
   )
-    .mapRej(err => ({ code: err.statusCode, msg: err.errorMessage }))
+    .mapRej(err => ({ code: err.statusCode || 500, msg: err.errorMessage }))
 
 // postStyleSurvey :: (HttpRequest, HttpResponse) -> Cancel
 exports.postNotifications = (req, res) =>
